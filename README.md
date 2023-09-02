@@ -40,7 +40,8 @@ Search parameters:
   - No.of federated queries: 1
 
 The average runtime (10 times):  
--  
+- Virtuoso S1T00 Error SR171: Transaction timed out (over 10 minutes)
+ 
   
 Results:
 - No. of bioresources: ND

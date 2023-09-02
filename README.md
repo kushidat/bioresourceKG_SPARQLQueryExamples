@@ -25,6 +25,7 @@ Results:
 - No. of related genes: 76
 
 
+
 ## SPARQL Query Example 2 
 [SPARQL_Query_Example2.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example2.txt)  
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for Uniprot official SPARQL endpoint. 
@@ -32,17 +33,63 @@ Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([
 Search parameters:  
   - Main queries
     - GRAPH < xsearch_plant_xsearch >
-    - SERVICE < uniprot >
+    - _**SERVICE < uniprot >**_
     - GRAPH < rhea >
     - GRAPH < chebi >
   - Sub queries
     - nothing
-  - No.of federated queries: 1
+  - No.of federated queries: 1 (UniProt)
 
 The average runtime (10 times):  
 - Virtuoso S1T00 Error SR171: Transaction timed out (over 10 minutes)
- 
   
 Results:
 - No. of bioresources: ND
 - No. of related genes: ND
+
+
+## SPARQL Query Example 3 
+[SPARQL_Query_Example3.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example3.txt)  
+Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for Rhea official SPARQL endpoint. 
+
+Search parameters:  
+  - Main queries
+    - GRAPH < xsearch_plant_xsearch >
+    - GRAPH < uniprot_ncbigene >
+    - GRAPH < uniprot_enzyme >
+    - _**SERVICE < rhea >**_
+    - GRAPH < chebi >
+  - Sub queries
+    - nothing
+  - No.of federated queries: 1 (Rhea)
+
+The average runtime (10 times):  
+- Virtuoso S1T00 Error SR171: Transaction timed out (over 10 minutes)
+  
+Results:
+- No. of bioresources: ND
+- No. of related genes: ND
+
+
+## SPARQL Query Example 4 
+[SPARQL_Query_Example4.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example4.txt)  
+Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for ChEBI’s SPARQL endpoint within RDF Portal. 
+
+Search parameters:  
+  - Main queries
+    - GRAPH < xsearch_plant_xsearch >
+    - GRAPH < uniprot_ncbigene >
+    - GRAPH < uniprot_enzyme >
+    - GRAPH < rhea >
+    - _**SERVICE < chebi >**_
+  - Sub queries
+    - nothing
+  - No.of federated queries: 1 (ChEBI)
+
+The average runtime (10 times):  
+- 502 Proxy Error
+  
+Results:
+- No. of bioresources: ND
+- No. of related genes: ND
+

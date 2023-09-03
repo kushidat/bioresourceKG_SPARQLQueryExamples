@@ -129,7 +129,7 @@ Search parameters:
   - No. of federated queries: 1 (UniProt)
 
 The average runtime (10 times):  
-- 20 seconds [Execution date: 1 September 2023] 
+- 21 seconds [Execution date: 1 September 2023] 
   
 Results:
 - No. of bioresources relevant to [chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079): 913

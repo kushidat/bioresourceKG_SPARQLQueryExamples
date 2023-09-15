@@ -7,7 +7,7 @@ ___
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079))  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch > 
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_enzyme >
@@ -30,7 +30,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for Uniprot official SPARQL endpoint. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - _**SERVICE < uniprot >**_
     - GRAPH < rhea >
@@ -52,7 +52,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for Rhea official SPARQL endpoint. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_enzyme >
@@ -75,7 +75,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for ChEBI’s SPARQL endpoint within RDF Portal. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_enzyme >
@@ -98,7 +98,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries but not using federated queries
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
   - Sub queries
     - GRAPH < uniprot_ncbigene >
@@ -120,7 +120,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for Uniprot official SPARQL endpoint. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - _**SERVICE < uniprot >**_
   - Sub queries
     - GRAPH < xsearch_plant_xsearch >
@@ -141,7 +141,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for Rhea official SPARQL endpoint. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - _**SERVICE < rhea >**_
   - Sub queries
     - GRAPH < xsearch_plant_xsearch >
@@ -163,7 +163,7 @@ Results:
 Description: A SPARQL query for obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for ChEBI’s SPARQL endpoint within RDF Portal. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - _**SERVICE < chebi >**_
   - Sub queries
     - GRAPH < xsearch_plant_xsearch >
@@ -185,7 +185,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to ChEBI roles. 
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_enzyme >
@@ -206,7 +206,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to KNApSAcK biological activities.
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_enzyme >
@@ -227,7 +227,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to GO molecular functions.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >
@@ -247,7 +247,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to GO biological processes.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >
@@ -267,7 +267,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to GO cellular components.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >
@@ -287,7 +287,7 @@ Results:
 Description: A SPARQL query for obtaining human DNA materials relevant to GO molecular functions.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >
@@ -307,7 +307,7 @@ Results:
 Description: A SPARQL query for obtaining human DNA materials relevant to GO biological processes.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >
@@ -327,7 +327,7 @@ Results:
 Description: A SPARQL query for obtaining plant DNA materials relevant to GO cellular components.  
 
 Search parameters:  
-  - Main queries
+  - Outer queries
     - GRAPH < xsearch_plant_xsearch >
     - GRAPH < uniprot_ncbigene >
     - GRAPH < uniprot_go >

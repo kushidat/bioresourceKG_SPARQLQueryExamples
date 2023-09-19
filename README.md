@@ -3,7 +3,7 @@ Lists of SPARQL query examples for [RIKEN Bioresource KG](https://github.com/kus
 RIKEN BioResouce MetaDatabase SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
 ___
 ## SPARQL Query Example 1  
-[SPARQL_Query_Example1.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example1.txt)  
+[SPARQL_Query_Example1.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example1.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079))  
 
 Search parameters:  
@@ -26,7 +26,7 @@ Results:
 
 
 ## SPARQL Query Example 2 
-[SPARQL_Query_Example2.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example2.txt)  
+[SPARQL_Query_Example2.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example2.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using federated search for Uniprot official SPARQL endpoint. 
 
 Search parameters:  
@@ -48,7 +48,7 @@ Results:
 
 
 ## SPARQL Query Example 3 
-[SPARQL_Query_Example3.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example3.txt)  
+[SPARQL_Query_Example3.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example3.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using a federated search for Rhea official SPARQL endpoint. 
 
 Search parameters:  
@@ -71,7 +71,7 @@ Results:
 
 
 ## SPARQL Query Example 4 
-[SPARQL_Query_Example4.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example4.txt)  
+[SPARQL_Query_Example4.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example4.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using a federated search for ChEBI’s SPARQL endpoint within RDF Portal. 
 
 Search parameters:  
@@ -94,7 +94,7 @@ Results:
 
 
 ## SPARQL Query Example 5  
-[SPARQL_Query_Example5.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example5.txt)  
+[SPARQL_Query_Example5.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example5.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries but not using federated queries
 
 Search parameters:  
@@ -116,7 +116,7 @@ Results:
 
 
 ## SPARQL Query Example 6  
-[SPARQL_Query_Example6.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example6.txt)  
+[SPARQL_Query_Example6.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example6.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for Uniprot official SPARQL endpoint. 
 
 Search parameters:  
@@ -137,7 +137,7 @@ Results:
 
 
 ## SPARQL Query Example 7  
-[SPARQL_Query_Example7.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example7.txt)  
+[SPARQL_Query_Example7.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example7.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for Rhea official SPARQL endpoint. 
 
 Search parameters:  
@@ -159,7 +159,7 @@ Results:
 
 
 ## SPARQL Query Example 8  
-[SPARQL_Query_Example8.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example8.txt)  
+[SPARQL_Query_Example8.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Example8.rq)  
 Description: A SPARQL query and the result of obtaining bioresources relevant to ChEBI role ([chebi:67079](http://purl.obolibrary.org/obo/CHEBI_67079)) using subqueries and federated queries for ChEBI’s SPARQL endpoint within RDF Portal. 
 
 Search parameters:  
@@ -181,7 +181,7 @@ Results:
   
 
 ## SPARQL Query Example 9   
-[SPARQL_Query_Statistics1_plantD_role.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics1_plantD_role.txt)  
+[SPARQL_Query_Statistics1_plantD_role.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics1_plantD_role.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to ChEBI roles. 
 
 Search parameters:  
@@ -202,7 +202,7 @@ Results:
 
   
 ## SPARQL Query Example 10     
-[SPARQL_Query_Statistics2_plantD_BA.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics2_plantD_BA.txt)  
+[SPARQL_Query_Statistics2_plantD_BA.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics2_plantD_BA.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to KNApSAcK biological activities.
 
 Search parameters:  
@@ -223,7 +223,7 @@ Results:
 
 
 ## SPARQL Query Example 11    
-[SPARQL_Query_Statistics3_plantD_MF.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics3_plantD_MF.txt)  
+[SPARQL_Query_Statistics3_plantD_MF.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics3_plantD_MF.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to GO molecular functions.  
 
 Search parameters:  
@@ -243,7 +243,7 @@ Results:
 
 
 ## SPARQL Query Example 12   
-[SPARQL_Query_Statistics4_plantD_BP.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics4_plantD_BP.txt)  
+[SPARQL_Query_Statistics4_plantD_BP.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics4_plantD_BP.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to GO biological processes.  
 
 Search parameters:  
@@ -263,7 +263,7 @@ Results:
 
 
 ## SPARQL Query Example 13    
-[SPARQL_Query_Statistics5_plantD_CC.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics5_plantD_CC.txt)  
+[SPARQL_Query_Statistics5_plantD_CC.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics5_plantD_CC.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to GO cellular components.  
 
 Search parameters:  
@@ -283,7 +283,7 @@ Results:
 
 
 ## SPARQL Query Example 14    
-[SPARQL_Query_Statistics6_humanD_MF.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics6_humanD_MF.txt)  
+[SPARQL_Query_Statistics6_humanD_MF.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics6_humanD_MF.rq)  
 Description: A SPARQL query and the result of obtaining human DNA materials relevant to GO molecular functions.  
 
 Search parameters:  
@@ -303,7 +303,7 @@ Results:
 
 
 ## SPARQL Query Example 15   
-[SPARQL_Query_Statistics7_humanD_BP.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics7_humanD_BP.txt)  
+[SPARQL_Query_Statistics7_humanD_BP.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics7_humanD_BP.rq)  
 Description: A SPARQL query and the result of obtaining human DNA materials relevant to GO biological processes.  
 
 Search parameters:  
@@ -323,7 +323,7 @@ Results:
 
 
 ## SPARQL Query Example 16   
-[SPARQL_Query_Statistics8_humanD_CC.txt](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics8_humanD_CC.txt)  
+[SPARQL_Query_Statistics8_humanD_CC.rq](https://github.com/kushidat/bioresourceKG_SPARQLQueryExamples/blob/main/SPARQL_Query_Statistics8_humanD_CC.rq)  
 Description: A SPARQL query and the result of obtaining plant DNA materials relevant to GO cellular components.  
 
 Search parameters:  

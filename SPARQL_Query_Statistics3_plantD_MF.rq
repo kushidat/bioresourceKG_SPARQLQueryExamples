@@ -9,6 +9,7 @@ PREFIX up: <http://purl.uniprot.org/core/>
 PREFIX taxon: <http://purl.uniprot.org/taxonomy/>
 PREFIX uniprot: <http://purl.uniprot.org/core/>
 PREFIX go: <http://purl.obolibrary.org/obo/GO_>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 SELECT DISTINCT ?plant ?ncbigene
 #SELECT (COUNT(DISTINCT ?plant) AS ?count)
 #SELECT (COUNT(DISTINCT ?go) AS ?count)

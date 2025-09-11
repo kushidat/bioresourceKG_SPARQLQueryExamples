@@ -30,7 +30,7 @@ WHERE {
     ?compound rh:chebi ?chebi .
     }
 
- SERVICE <https://integbio.jp/rdf/ebi/sparql> {
+ SERVICE <https://rdfportal.org/ebi/sparql> {
     ?chebi rdfs:subClassOf ?bl_1; rdfs:label ?label_chebi .
     ?bl_1 owl:someValuesFrom ?role ; rdf:type owl:Restriction ;
               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> . # has role

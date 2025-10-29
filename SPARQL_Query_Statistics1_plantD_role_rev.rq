@@ -32,11 +32,12 @@ WHERE {
     }
 
   graph <http://metadb.riken.jp/ontology/CHEBI> {
-    ?chebi rdfs:subClassOf ?bl_1; rdfs:label ?label_chebi .
+    ?chebi rdfs:subClassOf+ ?bl_1; rdfs:label ?label_chebi .
     ?bl_1 owl:someValuesFrom ?role ; rdf:type owl:Restriction ;
       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> . # has role
     ?role rdfs:label ?label_role.
     ?chebi rdfs:label ?label_chebi.
-#      VALUES(?role) {(chebi:67079)} #anti-inflammatory agent
+    ?role rdfs:subClassOf* ?upper_role.
+#      VALUES(?upper_role) {(chebi:67079)} #anti-inflammatory agent
     } 
 }

@@ -21,7 +21,6 @@ WHERE {
     ?uniprot <http://purl.uniprot.org/core/enzyme> ?enzyme.
       FILTER REGEX(STR(?ncbigene), "http://purl.uniprot.org/geneid/")
     ?uniprot up:organism ?taxid .
-      VALUES (?taxid) { (taxon:3702) }
     }
 
   graph <http://metadb.riken.jp/db/rhea> {

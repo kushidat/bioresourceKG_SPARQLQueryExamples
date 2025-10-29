@@ -38,4 +38,5 @@ WHERE {
     ?chebi rdfs:label ?label_chebi.
     ?role rdfs:subClassOf* ?upper_role.
 #      VALUES(?upper_role) {(chebi:67079)} #anti-inflammatory agent
+    }
 }
